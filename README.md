@@ -2,6 +2,7 @@
 ## Obtaining the library
 > [!IMPORTANT] 
 > You'll need both **git** and **cmake** to make this work!
+
 Choose a directory where you want the library files to be put into, open it in terminal, then paste and execute the following command:
 ```
 curl -fsSL https://raw.githubusercontent.com/sizeof-dario/printfc/main/bootstrap.sh | bash
