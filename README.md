@@ -2,12 +2,12 @@
 ## How to obtain and use the library
 > [!IMPORTANT] 
 > You'll need both **git** and **cmake** to make this work!
-### 1. Get a copy of this repository content
-Choose the directory where you want the files to be put into, open it in terminal, the paste and execute the following command:
+### 1. Get the library file
+Choose a directory where you want the library file to be put into, open it in terminal, then paste and execute the following command:
 ```
 curl -fsSL https://raw.githubusercontent.com/sizeof-dario/printfc/main/bootstrap.sh | bash
 ```
-You'll find the library in the (newly created) **path-to-dir/printf/build/** drectory, as **libprintfc.a**, where **path-to-dir** is the path of the director you've chosen.
+You'll find the library at **path-to-dir/printf/libprintfc.a**, where **path-to-dir** is the path of the director you've chosen.
 ### 3. Include the library header file in your project
 To access this library function(s), you need to include its header, it being in the **include** directory. 
 Take note of the **printfc** directory path and paste the following line in the appropriete project file
