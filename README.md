@@ -3,9 +3,9 @@
 > [!IMPORTANT] 
 > You'll need both **git** and **cmake** to make this work!
 ### 1. Get a copy of this repository content
-Choose the directory where you want the files to be put into, open it in terminal, paste the following line (then enter):
+Choose the directory where you want the files to be put into, open it in terminal, the paste and execute the following command:
 ```
-git clone --depth 1 https://github.com/sizeof-dario/printfc.git && cd ./printfc/ && cmake -B build && cmake --build build
+curl -fsSL https://raw.githubusercontent.com/sizeof-dario/printfc/main/bootstrap.sh | bash
 ```
 You'll find the library in the (newly created) **path-to-dir/printf/build/** drectory, as **libprintfc.a**, where **path-to-dir** is the path of the director you've chosen.
 ### 3. Include the library header file in your project
