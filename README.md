@@ -3,21 +3,11 @@
 > [!IMPORTANT] 
 > You'll need both **git** and **cmake** to make this work!
 ### 1. Get a copy of this repository content
-Choose the directory where you want the files to be put into, then open it in terminal and type (or paste):
+Choose the directory where you want the files to be put into, open it in terminal, paste the following line (then enter):
 ```
-git clone --depth 1 https://github.com/sizeof-dario/printfc.git
+git clone --depth 1 https://github.com/sizeof-dario/printfc.git && cd ./printfc/ && cmake -B build && cmake --build build
 ```
-You'll find all the files in the **printfc** directory, inside the one you initally chose.
-### 2. Build the library
-Go to the **printfc** directory and type:
-```
-cmake -B build
-```
-followed by
-```
-cmake --build build
-```
-You'll find the library in the (newly created) **build** drectory, as **libprintfc.a**.
+You'll find the library in the (newly created) **path-to-dir/printf/build/** drectory, as **libprintfc.a**, where **path-to-dir** is the path of the director you've chosen.
 ### 3. Include the library header file in your project
 To access this library function(s), you need to include its header, it being in the **include** directory. 
 Take note of the **printfc** directory path and paste the following line in the appropriete project file
