@@ -1,4 +1,4 @@
-[![CMake on a single platform](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-single-platform.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-single-platform.yml)
+[![CMake (Ubuntu)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-single-platform.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-single-platform.yml)
 # printfc
 ## Obtaining the library
 > [!IMPORTANT] 
