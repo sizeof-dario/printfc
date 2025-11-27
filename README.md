@@ -1,4 +1,4 @@
-![Build](https://img.shields.io/github/actions/workflow/status/sizeof-dario/printfc/cmake-single-platform.yml)
+[![CMake on a single platform](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-single-platform.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-single-platform.yml)
 # printfc
 ## Obtaining the library
 > [!IMPORTANT] 
