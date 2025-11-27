@@ -1,4 +1,11 @@
+![C](https://img.shields.io/badge/language-C-blue)
 [![CMake (Ubuntu)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-supported-brightgreen)
+![Last commit](https://img.shields.io/github/last-commit/sizeof-dario/printfc)
+![Linux](https://img.shields.io/badge/Linux-compatible-yellow)
+![Windows](https://img.shields.io/badge/Windows-unsupported-red)
+![Windows](https://img.shields.io/badge/macOS-unsupported-red)
+
 # printfc
 ## Obtaining the library
 > [!IMPORTANT] 
