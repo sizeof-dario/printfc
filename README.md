@@ -1,3 +1,4 @@
+![Build](https://img.shields.io/github/actions/workflow/status/sizeof-dario/printfc/cmake-multi-platform.yml)
 # printfc
 ## Obtaining the library
 > [!IMPORTANT] 
