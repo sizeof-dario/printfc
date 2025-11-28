@@ -5,11 +5,14 @@
 ![Windows](https://img.shields.io/badge/Windows-unsupported-red)
 ![macOS](https://img.shields.io/badge/macOS-unsupported-red)
 
+> [!Note]
+> Tests are currently incomplete.
+
 # printfc [![CMake (Ubuntu)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml) [![Tests](https://github.com/sizeof-dario/printfc/actions/workflows/tests.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/tests.yml)
 
 ## Obtaining the library
 > [!IMPORTANT] 
-> You'll need both **git** and **cmake** to make this work!
+> You'll need both **git** and **cmake** to make this work.
 
 Choose a directory where you want the library files to be put into, open it in terminal, then paste and execute the following command:
 ```
