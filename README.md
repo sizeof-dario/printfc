@@ -1,12 +1,12 @@
 ![C](https://img.shields.io/badge/language-C-blue)
-[![CMake (Ubuntu)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-supported-brightgreen)
 ![Last commit](https://img.shields.io/github/last-commit/sizeof-dario/printfc)
 ![Linux](https://img.shields.io/badge/Linux-compatible-yellow)
 ![Windows](https://img.shields.io/badge/Windows-unsupported-red)
 ![Windows](https://img.shields.io/badge/macOS-unsupported-red)
 
-# printfc
+# printfc [![CMake (Ubuntu)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml) [![Tests](https://github.com/sizeof-dario/printfc/actions/workflows/tests.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/tests.yml)
+
 ## Obtaining the library
 > [!IMPORTANT] 
 > You'll need both **git** and **cmake** to make this work!
