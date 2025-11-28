@@ -18,12 +18,21 @@ target_sources(printfc
 
 enable_testing()
 
-add_executable(run_tests
-    tests/test_main.c
-    tests/unity.c
-)
+#add_executable(run_tests
+#    tests/test_main.c
+#    tests/unity.c
+#)
 
-target_link_libraries(run_tests PRIVATE printfc)
+#target_link_libraries(run_tests PRIVATE printfc)
 
-add_test(NAME unit_tests COMMAND run_tests)
+#add_test(NAME unit_tests COMMAND run_tests)
 
+
+function(add_unity_test name)
+  add_executable(${name} ${ARGN})
+  target_link_libraries(${name} PRIVATE printfc)
+  add_test(NAME ${name} COMMAND ${name})
+endfunction()
+
+add_unity_test(test_clrcpy tests/test_clrcpy.c tests/unity.c)
+add_unity_test(test_tocolor tests/test_tocolor.c tests/unity.c)
