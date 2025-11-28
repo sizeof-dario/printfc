@@ -99,6 +99,7 @@ static inline color_t *clrcpy (
     {
         (*destination)[i] = (*source)[i];
     }
+    return destination;
 }
 
 

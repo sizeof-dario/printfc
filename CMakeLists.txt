@@ -15,3 +15,14 @@ target_sources(printfc
     FILES
       include/printfc.h
 )
+
+enable_testing()
+
+add_executable(run_tests
+    tests/test_main.c
+    tests/unity.c
+)
+
+target_link_libraries(run_tests PRIVATE printfc)
+
+add_test(NAME unit_tests COMMAND run_tests)
