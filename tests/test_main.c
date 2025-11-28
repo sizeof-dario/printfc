@@ -35,5 +35,6 @@ void test_clrcpy_return()
     
     retclr_p = clrcpy(&destination, &source);
 
+    
     TEST_ASSERT_EQUAL_PTR(0, &destination);
 }
