@@ -95,9 +95,12 @@ static inline color_t *clrcpy (
     const color_t *const restrict source
 )   
 {
-    for (byte i = 0; i < COLOR_T_LENGTH; i++)
+    if(destination && source)
     {
-        (*destination)[i] = (*source)[i];
+        for (byte i = 0; i < COLOR_T_LENGTH; i++)
+        {
+            (*destination)[i] = (*source)[i];
+        }
     }
     return destination;
 }

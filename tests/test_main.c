@@ -6,6 +6,7 @@ void tearDown(void) {}
 
 void test_clrcpy_copying();
 void test_clrcpy_return();
+void test_clrcpy_null_args();
 
 int main()
 {
@@ -13,6 +14,7 @@ int main()
 
     RUN_TEST(test_clrcpy_copying);
     RUN_TEST(test_clrcpy_return);
+    RUN_TEST(test_clrcpy_null_args);
 
     return UNITY_END();  
 }
@@ -36,4 +38,9 @@ void test_clrcpy_return()
     retclr_p = clrcpy(&destination, &source);
 
     TEST_ASSERT_EQUAL_PTR(retclr_p, &destination);
+}
+
+void test_clrcpy_null_args()
+{
+    TEST_ASSERT_EQUAL_PTR(clrcpy(0 , 0), 0);
 }
