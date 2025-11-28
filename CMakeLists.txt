@@ -26,3 +26,4 @@ add_executable(run_tests
 target_link_libraries(run_tests PRIVATE printfc)
 
 add_test(NAME unit_tests COMMAND run_tests)
+
