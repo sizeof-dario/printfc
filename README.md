@@ -5,10 +5,10 @@
 ![Windows](https://img.shields.io/badge/Windows-unsupported-red)
 ![macOS](https://img.shields.io/badge/macOS-unsupported-red)
 
+# printfc [![CMake (Ubuntu)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml) [![Tests](https://github.com/sizeof-dario/printfc/actions/workflows/tests.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/tests.yml)
+
 > [!Note]
 > Tests are currently incomplete.
-
-# printfc [![CMake (Ubuntu)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/cmake-ubuntu.yml) [![Tests](https://github.com/sizeof-dario/printfc/actions/workflows/tests.yml/badge.svg)](https://github.com/sizeof-dario/printfc/actions/workflows/tests.yml)
 
 ## Obtaining the library
 > [!IMPORTANT] 
