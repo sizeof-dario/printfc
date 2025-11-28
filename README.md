@@ -16,4 +16,4 @@ Choose a directory where you want the library files to be put into, open it in t
 curl -fsSL https://raw.githubusercontent.com/sizeof-dario/printfc/main/bootstrap.sh | bash
 ```
 You'll find the library at **path-to-dir/printf/build/libprintfc.a** and its header at **path-to-dir/printf/include/printfc.h**,
-where **path-to-dir** is the path of the director you've chosen.
+where **path-to-dir** is the path of the director you've chosen, along with the rest of the repository files.
