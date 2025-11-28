@@ -21,5 +21,5 @@ void test_tocolor()
 
     tocolor(&color, RGB(25, 50, 100), FOREGROUND);
 
-    TEST_ASSERT_EQUAL_STRING(color, "\e[38;2;025;050;100m");
+    TEST_ASSERT_EQUAL_STRING("\e[38;2;025;050;100m", color);
 }

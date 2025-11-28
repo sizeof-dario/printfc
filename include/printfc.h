@@ -189,8 +189,7 @@ void tocolor (
  *      format string. After these, the remaining arguments correspond to the
  *      printf-like format specifiers, following the same rules as printf.
  *
- * @return The number of characters written to stdout, excluding any color
- *      control sequences.
+ * @return The number of characters written to stdout.
  *
  * @note Color sequences do not count toward the return value.
  * 

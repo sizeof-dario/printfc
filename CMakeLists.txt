@@ -29,10 +29,12 @@ enable_testing()
 
 
 function(add_unity_test name)
-  add_executable(${name} ${ARGN})
+  #add_executable(${name} ${ARGN})
+  add_executable(${name} ${ARGN} tests/unity.c)
   target_link_libraries(${name} PRIVATE printfc)
   add_test(NAME ${name} COMMAND ${name})
 endfunction()
 
-add_unity_test(test_clrcpy tests/test_clrcpy.c tests/unity.c)
-add_unity_test(test_tocolor tests/test_tocolor.c tests/unity.c)
+add_unity_test(test_clrcpy tests/test_clrcpy.c)
+add_unity_test(test_RGB_macro tests/test_RGB_macro.c)
+add_unity_test(test_tocolor tests/test_tocolor.c)
