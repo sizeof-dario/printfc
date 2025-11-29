@@ -1,8 +1,14 @@
 cmake_minimum_required(VERSION 3.28.3)
 
+
 project(printfc)
 
 add_library(printfc)
+
+if(CMAKE_C_COMPILER_ID STREQUAL "GNU")
+    add_compile_options(-fprofile-arcs -ftest-coverage)
+    add_link_options(-fprofile-arcs -ftest-coverage)
+endif()
 
 target_sources(printfc
   PRIVATE
@@ -36,5 +42,5 @@ function(add_unity_test name)
 endfunction()
 
 add_unity_test(test_clrcpy tests/test_clrcpy.c)
-add_unity_test(test_RGB_macro tests/test_RGB_macro.c)
+add_unity_test(test_macros tests/test_macros.c)
 add_unity_test(test_tocolor tests/test_tocolor.c)

@@ -59,7 +59,8 @@ _Static_assert(sizeof(dword) == 4, "dword must be 4 bytes.");
  *      - R, G and B are respectively the red, green and blue components of the
  *        represented color.
  * 
- * The sequence is stored as a null-terminated string of length `COLOR_T_LENGTH`.
+ * The sequence is stored as a null-terminated string of length 
+ * `COLOR_T_LENGTH`.
  * 
  */
 typedef char color_t[COLOR_T_LENGTH];
